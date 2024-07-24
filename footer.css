@@ -1,0 +1,91 @@
+body {
+    background-color: #eef8ff;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    border-bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+img {
+    height: 10vh;
+}
+
+.logo {
+    width: 380px;
+    margin-bottom: 30px;
+}
+
+.col h6 {
+    width: fit-content;
+    margin-bottom: 40px;
+    border-bottom: 1 px solid red;
+}
+
+.social {
+    background-color: white;
+    height: 5vh;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+}
+
+form .far {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input {
+    width: 100%;
+    background-color: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
+form button {
+    background: transparent;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons li {
+    list-style: none;
+}
